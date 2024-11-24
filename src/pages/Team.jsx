@@ -7,8 +7,20 @@ import tavish from "../assets/team/tavish.jpeg";
 import tavishSignature from "../assets/team/tavishSign.jpeg";
 import dhruva from "../assets/team/dhruva.jpeg";
 import dhruvaSignature from "../assets/team/dhruvaSign.jpeg";
+import tarun from "../assets/team/tarun.jpeg";
+import jay from "../assets/team/jay.jpeg";
 
 const teamMembers = [
+  {
+    name: "Dr. Tarun Kumar Bera",
+    position: "Associate professor at Mechanical Engineering Department, Thapar University",
+    image: tarun,
+  },
+  {
+    name: "Dr. Jay Prakash Tripathi",
+    position: "Assistant professor at Mechanical Engineering Department, Thapar University",
+    image: jay,
+  },
   {
     name: "Manav Sharma",
     position: "Identification and Need Analysis",
@@ -68,18 +80,20 @@ const TeamPage = () => {
             <img
               src={member.image}
               alt={member.name}
-              className="w-40 h-40 object-cover rounded-full mb-4"
+              className="w-40 h-40 object-cover rounded-full mb-4 shadow-lg shadow-slate-700"
             />
             <h3 className="text-xl font-semibold text-gray-800 mb-2">{member.name}</h3>
             <p className="text-gray-600 text-sm mb-4">{member.position}</p>
 
-            <div className="w-44 h-16 mb-4">
-              <img
-                src={member.signatureImage}
-                alt={`${member.name} signature`}
-                className="w-full h-full object-contain"
-              />
-            </div>
+            {member.signatureImage && (
+              <div className="w-44 h-16 mb-4">
+                <img
+                  src={member.signatureImage}
+                  alt={`${member.name} signature`}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            )}
           </div>
         ))}
       </div>

@@ -13,10 +13,10 @@ const Footer = () => {
           <p>
             📧 Email us at:{" "}
             <a
-              href="mailto:contact@smartclean.com"
+              href="mailto:manavmanohar2003@gmail.com"
               className="text-blue-400 underline hover:text-blue-500"
             >
-              contact@smartclean.com
+              manavmanohar2003@gmail.com
             </a>
           </p>
         </div>
