@@ -145,17 +145,17 @@ const ComponentsPage = () => {
           {components.map((component, index) => (
             <div
               key={index}
-              className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col items-center p-4 hover:scale-105 transition-transform duration-100 ease-in-out"
+              className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col items-center hover:scale-105 transition-transform duration-100 ease-in-out"
             >
               <img
                 src={component.image}
                 alt={component.title}
-                className="w-40 h-40 object-cover rounded-md mb-4"
+                className="w-full h-64 object-cover rounded-t-md mb-4"
               />
-              <h2 className="text-lg font-semibold text-gray-800 mb-2">
+              <h2 className="text-lg font-semibold text-gray-800 mb-2 p-2">
                 {component.title}
               </h2>
-              <p className="text-gray-600 text-sm text-center">
+              <p className="text-gray-600 text-sm text-left p-2">
                 {component.description}
               </p>
             </div>
