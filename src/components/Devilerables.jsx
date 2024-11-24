@@ -58,7 +58,7 @@ const DeliverablesSection = () => {
   ];
 
   return (
-    <div className="py-12 px-6 bg-gray-100 w-full mx-auto text-center">
+    <div className="py-12 px-4 md:px-6 bg-gray-100 w-full mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8">
         Deliverables
       </h2>
@@ -67,14 +67,14 @@ const DeliverablesSection = () => {
         {deliverables.map((item, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row bg-white rounded-lg shadow-lg p-6"
+            className="flex flex-col bg-white rounded-lg shadow-lg "
           >
             <img
               src={item.image}
               alt={item.title}
-              className="w-32 h-32 object-cover rounded-md mb-4 md:mb-0 md:mr-6"
+              className="w-full h-52 object-cover rounded-md mb-4 md:mb-0 md:mr-6"
             />
-            <div className="text-left">
+            <div className="text-left p-6">
               <h3 className="text-lg font-semibold text-gray-800 mb-2">
                 {item.title}
               </h3>

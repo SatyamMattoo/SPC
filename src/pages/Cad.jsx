@@ -58,7 +58,7 @@ const CadManufacturingPage = () => {
                     </p>
                 </div>
             </div>
-            <div className="bg-gray-200 py-8">
+            <div className="bg-gray-200 p-8">
                 <SectionHeading text="CAD Models" />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-6xl mx-auto">
                     {cadModels.map((image, index) => (
@@ -74,7 +74,7 @@ const CadManufacturingPage = () => {
                 </div>
             </div>
             {/* Live Preview Section */}
-            <div className="bg-white py-8">
+            <div className="bg-white p-8">
                 <SectionHeading text="Live Images" />
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full max-w-6xl mx-auto">
                     {livePreviewImages.map((image, index) => (
@@ -89,7 +89,7 @@ const CadManufacturingPage = () => {
                 </div>
             </div>
 
-            <div className="bg-gray-200 py-8">
+            <div className="bg-gray-200 p-8">
                 {/* Video Section */}
                 <SectionHeading text="CAD Model Video" />
                 <div className="mt-4 text-center">

@@ -5,7 +5,7 @@ import graph4 from "../assets/graph/graph-4.png";
 
 const GraphicalSurveySection = () => {
   return (
-    <div className="py-16 px-12 bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 w-full mx-auto text-center">
+    <div className="py-16 px-4 md:px-12 bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 w-full mx-auto text-center">
       <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-12">
         Survey Insights
       </h2>
