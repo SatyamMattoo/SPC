@@ -6,7 +6,7 @@ const MissionProblemSection = () => {
     <div className="w-full">
       {/* Mission Statement */}
       <div className="py-16 px-6 bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 w-full mx-auto text-center mb-12 flex flex-col md:flex-row items-center justify-center gap-10">
-        <img src={cleaner} alt="Cleaner Image" className="w-auto h-96 rounded-lg shadow-md" />
+        <img src={cleaner} alt="Cleaner Image" className="w-auto sm:h-40 md:h-96 rounded-lg shadow-md" />
         <div className="w-full md:w-1/2 flex flex-col align-top justify-between gap-6">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800">
             Our Mission

@@ -2,12 +2,12 @@ import hero from "../assets/hero.jpg";
 
 const HeroSection = () => {
     return (
-        <div className="relative h-[60vh] w-full">
+        <div className="relative w-full h-[40vh] md:h-[60vh]">
             {/* Background Image */}
             <img
                 src={hero}
                 alt="Smart Cleaner Background"
-                className="absolute inset-0 md:h-full w-full object-cover sm:h-3/4 "
+                className="absolute inset-0 h-full w-full object-cover"
             />
             {/* Overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-50" />
