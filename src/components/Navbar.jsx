@@ -10,7 +10,7 @@ const Navbar = () => {
             className="h-8"
             alt="Smart Portable Cleaner"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
+          <span className="self-center text-lg md:text-xl lg:text-2xl font-semibold whitespace-nowrap">
             Smart Portable Cleaner
           </span>
         </Link>
