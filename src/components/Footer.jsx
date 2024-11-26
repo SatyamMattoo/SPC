@@ -5,7 +5,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex items-center mb-4 md:mb-0">
           <img src="https://flowbite.com/docs/images/logo.svg" alt="Company Logo" className="w-12 h-12 mr-3" />
-          <h3 className="text-lg font-bold">SmartClean</h3>
+          <h3 className="text-lg font-bold">RC Cleaner</h3>
         </div>
 
         {/* Email Section */}
@@ -24,7 +24,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className="text-center mt-6 text-xs text-gray-800">
-        © {new Date().getFullYear()} SmartClean. All rights reserved.
+        © {new Date().getFullYear()} RC Cleaner. All rights reserved.
       </div>
     </footer>
   );
